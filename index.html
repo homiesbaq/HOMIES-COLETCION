@@ -2,46 +2,69 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HOMI – Colección Carnaval</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #ffffff;
-      color: #111;
-    }
 
-    .hero {
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      background: linear-gradient(135deg, #ff0066, #ffcc00);
-      color: white;
-      text-align: center;
-    }
-
-    .hero h1 {
-      font-size: 4rem;
-      margin: 0;
-      letter-spacing: 4px;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-      margin-top: 10px;
-    }
-  </style>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-  <section class="hero">
-    <h1>HOMI</h1>
-    <p>Aquí el tiempo se mueve distinto</p>
-    <p>Inspirado en el carnaval de Barranquilla</p>
-    <p><strong>Disponible próximamente</strong></p>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>HOMI</h1>
+      <p class="slogan">Aquí el tiempo se mueve distinto</p>
+      <p class="sub">Inspirado en el Carnaval de Barranquilla</p>
+      <span class="tag">Disponible próximamente</span>
+    </div>
+  </header>
+
+  <!-- COLECCIÓN -->
+  <section class="collection">
+    <h2>Colección Carnaval</h2>
+
+    <div class="grid">
+      
+      <article class="product">
+        <div class="img-box">
+          <img src="img/camisa1.jpg" alt="Camisa Carnaval 01">
+        </div>
+        <h3>Camisa Carnaval 01</h3>
+        <p class="price">$89.000 COP</p>
+      </article>
+
+      <article class="product">
+        <div class="img-box">
+          <img src="img/camisa2.jpg" alt="Camisa Carnaval 02">
+        </div>
+        <h3>Camisa Carnaval 02</h3>
+        <p class="price">$89.000 COP</p>
+      </article>
+
+      <article class="product">
+        <div class="img-box">
+          <img src="img/camisa3.jpg" alt="Camisa Carnaval 03">
+        </div>
+        <h3>Camisa Carnaval 03</h3>
+        <p class="price">$89.000 COP</p>
+      </article>
+
+      <article class="product">
+        <div class="img-box">
+          <img src="img/camisa4.jpg" alt="Camisa Carnaval 04">
+        </div>
+        <h3>Camisa Carnaval 04</h3>
+        <p class="price">$89.000 COP</p>
+      </article>
+
+    </div>
   </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 HOMI — Barranquilla, Colombia</p>
+  </footer>
 
 </body>
 </html>
