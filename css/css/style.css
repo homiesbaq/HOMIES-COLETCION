@@ -1,1 +1,108 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* BASE */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: #ffffff;
+  color: #111;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #ff005d, #ffd000);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  letter-spacing: 6px;
+}
+
+.slogan {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+.sub {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.tag {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 8px 18px;
+  border: 1px solid #fff;
+  font-size: 0.8rem;
+}
+
+/* COLECCIÓN */
+.collection {
+  padding: 80px 6%;
+}
+
+.collection h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+/* PRODUCTO */
+.product h3 {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+.price {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+/* IMAGEN + HOVER */
+.img-box {
+  overflow: hidden;
+}
+
+.img-box img {
+  width: 100%;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.product:hover img {
+  transform: scale(1.08);
+}
+
+/* FOOTER */
+.footer {
+  padding: 40px 6%;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .collection {
+    padding: 60px 8%;
+  }
+}
